@@ -496,4 +496,6 @@ footer{background:var(--cream);color:var(--muted);padding:54px 0 34px;border-top
   .hero h1 .word i{transform:none!important}
   .hero-copy,.hero-actions,.hero-meta,.ecg-wrap{opacity:1!important}
   .glow{display:none}
+  /* keep the decorative marquee scrolling even under reduced motion */
+  .marquee-track{animation-duration:28s!important;animation-iteration-count:infinite!important}
 }
