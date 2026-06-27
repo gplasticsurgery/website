@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /doctor-glykeria-pantazi.json
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+Sitemap: https://gplasticsurgery.gr/sitemap.xml

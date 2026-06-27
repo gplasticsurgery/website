@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Physician",
+  "@id": "https://gplasticsurgery.gr/#physician",
+  "name": "Δρ. Γλυκερία Πανταζή",
+  "alternateName": [
+    "Dr. Glykeria Pantazi",
+    "Pantazi Plastic Surgery"
+  ],
+  "url": "https://gplasticsurgery.gr/",
+  "image": "https://gplasticsurgery.gr/assets/doctor-glykeria-pantazi.jpeg",
+  "logo": "https://gplasticsurgery.gr/assets/logo.png",
+  "telephone": "+306945556676",
+  "email": "glykeriapantazi@gmail.com",
+  "jobTitle": "Πλαστικός, Επανορθωτικός και Αισθητικός Χειρουργός",
+  "description": "Η Δρ. Γλυκερία Πανταζή MD, PhD, EBOPRAS είναι πλαστικός, επανορθωτικός και αισθητικός χειρουργός στον Εύοσμο Θεσσαλονίκης, με εμπειρία στην αισθητική χειρουργική, επανορθωτική χειρουργική και μικροχειρουργική.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Ακαδήμου 115",
+    "addressLocality": "Εύοσμος",
+    "addressRegion": "Θεσσαλονίκη",
+    "addressCountry": "GR"
+  },
+  "areaServed": [
+    "Θεσσαλονίκη",
+    "Εύοσμος",
+    "Ελλάδα"
+  ],
+  "medicalSpecialty": [
+    "PlasticSurgery",
+    "CosmeticSurgery",
+    "ReconstructiveSurgery"
+  ],
+  "availableLanguage": [
+    "el",
+    "en"
+  ],
+  "memberOf": [
+    "ISAPS",
+    "Ε.Ε.Π.Ε.Α.Χ.",
+    "GMC",
+    "IMC"
+  ],
+  "knowsAbout": [
+    "Πλαστικός χειρουργός Θεσσαλονίκη",
+    "Πλαστικός χειρουργός Εύοσμος",
+    "Πλαστική χειρουργική",
+    "Αισθητική χειρουργική",
+    "Επανορθωτική χειρουργική",
+    "Μικροχειρουργική",
+    "Βλεφαροπλαστική",
+    "Χειρουργική μαστού",
+    "Κοιλιοπλαστική",
+    "Λιποαναρρόφηση",
+    "Botox",
+    "Υαλουρονικό οξύ",
+    "Χειρουργική χεριού",
+    "Καρκίνος δέρματος"
+  ],
+  "bookingUrl": "https://calendly.com/glykeriapantazi/30min?hide_event_type_details=1&hide_gdpr_banner=1"
+}
