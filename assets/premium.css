@@ -219,7 +219,13 @@ body.menu-open .overlay{opacity:1;pointer-events:auto}
 
 /* ---------- exams interactive grid ---------- */
 .exams{background:var(--cream);color:var(--ink)}
-.exam-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.exam-grid{display:flex;flex-direction:column;gap:50px}
+.exam-folder-group{display:grid;grid-template-columns:repeat(3,1fr);gap:50px 14px}
+.exam-folder-group .exam-folder .folder-items{grid-template-columns:1fr}
+.exam-folder .folder-title{display:flex;align-items:center;gap:12px;font-family:"Fraunces",serif;font-size:26px;color:var(--accent-deep);margin:0 0 20px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.exam-folder .folder-title svg{width:28px;height:28px}
+.exam-folder .folder-intro{font-size:15px;color:var(--muted);margin:-10px 0 20px;max-width:600px}
+.exam-folder .folder-items{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
 .exam{position:relative;padding:26px 22px;border:1px solid var(--line);border-radius:var(--r);
   background:var(--white);cursor:pointer;transition:transform .4s var(--ease),box-shadow .35s ease,border-color .35s ease;min-height:178px;display:flex;flex-direction:column;justify-content:space-between}
 .exam:hover{transform:translateY(-6px);border-color:var(--accent);box-shadow:var(--shadow-s)}
@@ -240,6 +246,8 @@ body.menu-open .overlay{opacity:1;pointer-events:auto}
 .hrow .day{font-weight:500;font-size:15.5px}
 .hrow .time{font-family:"Fraunces",serif;font-size:15px;color:var(--ink-2);text-align:right}
 .hrow .time.closed{color:var(--muted);font-style:italic}
+.hrow.closed .day,.hrow.closed .time{color:var(--muted);opacity:.6}
+.hrow.closed .time{font-style:italic}
 .hrow.today{background:var(--paper-2);padding-left:18px;border-radius:8px}
 .hrow.today .day{color:var(--accent)}
 .hrow.today .day::after{content:"σήμερα";margin-left:10px;font-family:"Space Grotesk";font-size:10px;font-weight:600;
@@ -396,7 +404,8 @@ footer{background:var(--cream);color:var(--muted);padding:54px 0 34px;border-top
   .about-figure{width:min(100%,380px)}
   .service-body{order:1}
   .service-toc{order:2}
-  .exam-grid{grid-template-columns:repeat(2,1fr)}
+  .exam-folder-group{grid-template-columns:repeat(2,1fr)}
+  .exam-folder .folder-items{grid-template-columns:repeat(2,1fr)}
   .shead{grid-template-columns:1fr;gap:18px;align-items:start}
   .nav-links,.nav-phone{display:none}
   .hamburger{display:flex}
@@ -443,7 +452,8 @@ footer{background:var(--cream);color:var(--muted);padding:54px 0 34px;border-top
   .stat:nth-child(2)::after{display:none}
   .stat strong{font-size:42px}
 
-  .exam-grid{grid-template-columns:repeat(2,1fr);gap:10px}
+  .exam-folder-group{grid-template-columns:1fr;gap:40px}
+  .exam-folder .folder-items{grid-template-columns:repeat(2,1fr);gap:10px}
   .exam{min-height:152px;padding:18px 15px}
   .exam .eico,.exam .eico svg{width:32px;height:32px}
   .exam .eico{margin-bottom:10px}

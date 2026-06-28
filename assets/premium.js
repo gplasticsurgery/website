@@ -24,8 +24,9 @@
     es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }});
   }, {threshold:.14, rootMargin:'0px 0px -8% 0px'});
   document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
-  document.querySelectorAll('.exam-grid, .stats-grid, .cred-list, .svc-list').forEach(function(g){
-    g.querySelectorAll('.reveal, .exam').forEach(function(el,i){ el.style.transitionDelay = (i*0.07)+'s'; });
+  document.querySelectorAll('.stats-grid, .cred-list, .svc-list, .folder-items, .exam-folder-group').forEach(function(g){
+    var childItems = Array.from(g.children).filter(function(c){ return c.classList.contains('reveal') || c.classList.contains('exam') || c.classList.contains('exam-folder'); });
+    childItems.forEach(function(el,i){ el.style.transitionDelay = (i*0.07)+'s'; });
   });
 
   /* ---- scroll progress + header + back to top ---- */
