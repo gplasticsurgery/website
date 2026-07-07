@@ -195,6 +195,28 @@ body.menu-open .overlay{opacity:1;pointer-events:auto}
 .member-list li::before{content:"";position:absolute;left:0;top:.72em;width:6px;height:6px;border-radius:50%;background:var(--accent)}
 .member-list b{color:var(--ink)}
 
+/* ---------- biography ---------- */
+.bio{background:var(--paper)}
+.bio-grid{display:grid;grid-template-columns:.38fr 1fr;gap:54px;align-items:start}
+.bio-aside{position:sticky;top:96px;background:var(--cream);border:1px solid var(--line);
+  border-radius:var(--r);padding:30px;box-shadow:var(--shadow-s)}
+.bio-origin{padding-bottom:24px;border-bottom:1px solid var(--line);margin-bottom:24px}
+.bio-origin span{display:block;font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.bio-origin strong{display:block;font-family:"Fraunces",serif;font-size:28px;line-height:1.12;color:var(--ink)}
+.bio-origin p{margin:12px 0 0;color:var(--muted);font-size:14.5px;line-height:1.62}
+.bio-points{list-style:none;padding:0;margin:0;display:grid;gap:16px}
+.bio-points li{display:grid;gap:4px;padding-left:18px;position:relative}
+.bio-points li::before{content:"";position:absolute;left:0;top:.58em;width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.bio-points b{font-size:14.5px;color:var(--ink)}
+.bio-points span{font-size:13.5px;color:var(--muted);line-height:1.5}
+.bio-content{max-width:820px}
+.bio-content p{color:var(--ink-2);font-size:16.5px;line-height:1.76;margin:0 0 18px}
+.bio-content .bio-intro{font-family:"Fraunces",serif;font-size:24px;font-weight:500;line-height:1.48;color:var(--ink);margin-bottom:26px}
+.bio-timeline{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:34px 0}
+.bio-timeline article{background:var(--cream);border:1px solid var(--line);border-radius:var(--r-s);padding:22px}
+.bio-timeline span{display:block;font-family:"Fraunces",serif;font-size:20px;font-weight:600;color:var(--accent);margin-bottom:9px}
+.bio-timeline p{font-size:14.5px;line-height:1.62;margin:0;color:var(--ink-2)}
+
 /* ---------- services (expanding rows) ---------- */
 .svc-list{border-top:1px solid var(--line)}
 .svc-row{border-bottom:1px solid var(--line);cursor:pointer;transition:padding .4s var(--ease)}
@@ -400,8 +422,9 @@ footer{background:var(--cream);color:var(--muted);padding:54px 0 34px;border-top
 @media (max-width:1000px){
   .nav{padding-inline:0}
   .hero-text{padding-left:0}
-  .about-grid,.hours-grid,.contact-grid{grid-template-columns:1fr;gap:46px}
+  .about-grid,.bio-grid,.hours-grid,.contact-grid{grid-template-columns:1fr;gap:46px}
   .about-figure{width:min(100%,380px)}
+  .bio-aside{position:static}
   .service-body{order:1}
   .service-toc{order:2}
   .exam-folder-group{grid-template-columns:repeat(2,1fr)}
@@ -469,6 +492,12 @@ footer{background:var(--cream);color:var(--muted);padding:54px 0 34px;border-top
   .about-figure .tag{right:-8px;bottom:-20px;padding:18px 22px}
   .about-figure .tag strong{font-size:28px}
   .about-body .intro{font-size:20px}
+  .bio-aside{padding:24px}
+  .bio-origin strong{font-size:24px}
+  .bio-content .bio-intro{font-size:20px}
+  .bio-content p{font-size:15.5px;line-height:1.68}
+  .bio-timeline{grid-template-columns:1fr;gap:12px;margin:28px 0}
+  .bio-timeline article{padding:20px}
 
   .hours-aside{padding:30px}
   .hours-aside .live-clock{font-size:40px}
