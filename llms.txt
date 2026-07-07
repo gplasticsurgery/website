@@ -1,6 +1,7 @@
 # Pantazi Plastic Surgery - Dr. Glykeria Pantazi
 
 Official website: https://gplasticsurgery.gr/
+Doctor biography: https://gplasticsurgery.gr/biografiko.html
 Machine-readable profile: https://gplasticsurgery.gr/doctor-glykeria-pantazi.json
 Primary language: Greek (el)
 Secondary language: English (en)
