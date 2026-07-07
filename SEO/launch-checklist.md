@@ -4,8 +4,8 @@
 
 - Confirm final domain and replace `https://gplasticsurgery.gr/` if needed.
 - Confirm final email: currently `glykeriapantazi@gmail.com`.
-- Confirm final phone: currently `694 555 6676`.
-- Confirm final address: currently `Ακαδήμου 115, Εύοσμος`.
+- Confirm final phones: currently `694 555 6676`, `2310 808 017`, `2351 302 768`.
+- Confirm final addresses: currently `Ακαδήμου 115, Εύοσμος` and `Εθνικής Αντίστασης 8, Κατερίνη`.
 - Add final clinic/doctor photography when available.
 - Complete and legally review the legal pages before production.
 

@@ -10,20 +10,31 @@
   "url": "https://gplasticsurgery.gr/",
   "image": "https://gplasticsurgery.gr/assets/doctor-glykeria-pantazi.jpeg",
   "logo": "https://gplasticsurgery.gr/assets/logo.png",
-  "telephone": ["+306945556676", "+302310808017"],
+  "telephone": ["+306945556676", "+302310808017", "+302351302768"],
   "email": "glykeriapantazi@gmail.com",
   "jobTitle": "Πλαστικός, Επανορθωτικός και Αισθητικός Χειρουργός",
   "description": "Η Δρ. Γλυκερία Πανταζή MD, PhD, EBOPRAS είναι πλαστικός, επανορθωτικός και αισθητικός χειρουργός στον Εύοσμο Θεσσαλονίκης, με εμπειρία στην αισθητική χειρουργική, επανορθωτική χειρουργική και μικροχειρουργική.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Ακαδήμου 115",
-    "addressLocality": "Εύοσμος",
-    "addressRegion": "Θεσσαλονίκη",
-    "addressCountry": "GR"
-  },
+  "address": [
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "Ακαδήμου 115",
+      "addressLocality": "Εύοσμος",
+      "addressRegion": "Θεσσαλονίκη",
+      "addressCountry": "GR"
+    },
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "Εθνικής Αντίστασης 8",
+      "addressLocality": "Κατερίνη",
+      "addressRegion": "Πιερία",
+      "addressCountry": "GR"
+    }
+  ],
   "areaServed": [
     "Θεσσαλονίκη",
     "Εύοσμος",
+    "Κατερίνη",
+    "Πιερία",
     "Ελλάδα"
   ],
   "medicalSpecialty": [
